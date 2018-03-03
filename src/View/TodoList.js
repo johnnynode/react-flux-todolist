@@ -37,8 +37,7 @@ class TodoList extends Component {
                     }}
                     editItem={(id, content) => {
                       editItemList(id, content);
-                    }
-                    }
+                    }}
                   />
                 </li>
               )
