@@ -1,11 +1,12 @@
 import React, {Component} from 'react';
 
-import TodoHeader from './TodoHeader';
 import TodoInput from './TodoInput';
 import TodoList from './TodoList';
 
 import TodoAction from '../Action/TodoAction'
 import TodoStore from '../Store/TodoStore'
+
+import TodoHeaderContainer from "./TodoHeaderContainer";
 
 // trim 函数
 let trim = (str) => {
@@ -23,10 +24,9 @@ class TodoApp extends Component {
 
   render() {
     const todos = TodoStore.getTodos();
-    let todoCount = todos.filter((todo) => !todo.checked).length;
     return (
       <div>
-        <TodoHeader name="汪峰" todoCount={todoCount} />
+        <TodoHeaderContainer />
         <TodoInput 
           type='text' 
           style={{width:200,height:30}} 
