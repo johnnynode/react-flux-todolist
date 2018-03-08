@@ -9,7 +9,7 @@ class TodoListContainer extends Component {
     super(props);
     // 将数据存放在状态机中, 状态机改变, 自动刷新
     this.state = {
-      todos: TodoStore.getTodos()
+      todos: TodoStore.getState()
     };
   }
 
@@ -27,9 +27,9 @@ class TodoListContainer extends Component {
   }
 
   componentDidMount() {
-    this.addObserver = TodoStore.addObserver(()=>{
+    this.addObserver = TodoStore.addListener(()=>{
       this.setState({
-        todos:TodoStore.getTodos()
+        todos:TodoStore.getState()
       });
     });
   }

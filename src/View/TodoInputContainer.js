@@ -14,7 +14,7 @@ class TodoInputContainer extends Component {
     super(props);
     // 将数据存放在状态机中, 状态机改变, 自动刷新
     this.state = {
-      todos: TodoStore.getTodos()
+      todos: TodoStore.getState()
     };
   }
 
@@ -48,4 +48,4 @@ class TodoInputContainer extends Component {
 
 }
 
-export default TodoInputContainer
+export default TodoInputContainer;
