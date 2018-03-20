@@ -1,0 +1,11 @@
+[ 
+  {"id":1, "content":"异类", "checked": false},
+  {"id":2, "content":"必然", "checked": false},
+  {"id":3, "content":"失控", "checked": false},
+  {"id":4, "content":"商战", "checked": false},
+  {"id":5, "content":"创业维艰", "checked": false},
+  {"id":6, "content":"孙子兵法", "checked": false},
+  {"id":7, "content":"未来之镜", "checked": true},
+  {"id":8, "content":"直面挑战", "checked": false},
+  {"id":9, "content":"浪潮之巅", "checked": true}
+]
