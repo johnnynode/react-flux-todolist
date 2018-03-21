@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import ListItem from './listItem';
+import ListItem from './list-item';
 
 class List extends Component {
   static get defaultProps() {
