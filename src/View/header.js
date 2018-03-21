@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
 class Header extends Component {
-  static get defaultProps(props) {
+  static get defaultProps() {
     return {
       name: "Johnny",
       bookLeft:0
