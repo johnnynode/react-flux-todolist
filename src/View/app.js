@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import Action from '../Action';
-import HeaderContainer from './container/header-container';
-import InputContainer from './container/input-container';
-import ListContainer from './container/list-container';
+import HeaderContainer from './Container/header-container';
+import InputContainer from './Container/input-container';
+import ListContainer from './Container/list-container';
 
 class App extends Component {
   render() {

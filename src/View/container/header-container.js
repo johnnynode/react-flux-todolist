@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Container} from 'flux/utils';
 import Store from '../../Store';
-import Header from '../templates/header';
+import Header from '../Templates/header';
 
 class HeaderContainer extends Component {
   static getStores() {
