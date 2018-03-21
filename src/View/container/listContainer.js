@@ -1,10 +1,8 @@
 import React, {Component} from 'react';
 import {Container} from 'flux/utils';
-
-import Action from '../Action';
-import Store from '../Store';
-
-import List from './list';
+import Action from '../../Action';
+import Store from '../../Store';
+import List from '../templates/list';
 
 class ListContainer extends Component {
   static getStores() {

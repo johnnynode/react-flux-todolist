@@ -1,10 +1,8 @@
 import React, {Component} from 'react';
-
-import Action from '../Action';
-import Store from '../Store';
-import Utils from '../Utils';
-
-import Input from './input';
+import Action from '../../Action';
+import Store from '../../Store';
+import Utils from '../../Utils';
+import Input from '../templates/input';
 
 class InputContainer extends Component {
   constructor(props) {

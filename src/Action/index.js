@@ -24,7 +24,7 @@ const Action = {
     Dispatcher.dispatch({
       id,
       title,
-      type:Constants.delItem
+      type:Constants.editItem
     });
   },
   loadData() {
