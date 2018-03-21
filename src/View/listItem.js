@@ -87,7 +87,6 @@ class ListItem extends Component {
       </div>
     )
   }
-
 }
 
 export default ListItem;
