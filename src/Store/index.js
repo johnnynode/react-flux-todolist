@@ -9,7 +9,7 @@ class Store extends ReduceStore {
     return []; // 默认return值
   }
   
-  // 这里就是一个todos
+  // 这里就是一个
   reduce(data, action) {
     switch(action.type) {
       case Constants.toggleItem:

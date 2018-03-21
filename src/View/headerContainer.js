@@ -20,6 +20,7 @@ class HeaderContainer extends Component {
     const {
       data
     } = this.state;
+
     let bookLeft =  data.filter((item) => !item.checked).length;
 
     return (

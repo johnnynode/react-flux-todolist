@@ -27,8 +27,8 @@ const Action = {
       type:Constants.delItem
     });
   },
-  loadDate() {
-    fetch('todos.json')
+  loadData() {
+    fetch('books.json')
     .then((data)=>data.json())
     .then((data)=>{
       Dispatcher.dispatch({

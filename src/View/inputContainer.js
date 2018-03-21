@@ -18,7 +18,7 @@ class InputContainer extends Component {
     return (
       <Input 
         autoFocus={true} 
-        style={{margin:"10px 0",paddingLeft:5}} 
+        style={{width:300,height:30,outline:"none",margin:"10px 0",paddingLeft:5}} 
         onKeyUp={
           (e)=>{
             let val = Utils.trim(e.target.value);

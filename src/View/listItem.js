@@ -71,6 +71,7 @@ class ListItem extends Component {
         <Input 
           id={id}
           type="checkbox"
+          style={{width:15,height:15}}
           checked={checked}
           onChange={
             ()=> {

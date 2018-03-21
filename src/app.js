@@ -1,8 +1,10 @@
 import React, {Component} from 'react';
 
+import Action from './Action';
+
 import HeaderContainer from './View/headerContainer';
 import InputContainer from './View/inputContainer';
-import listContainer from './View/listContainer';
+import ListContainer from './View/listContainer';
 
 class App extends Component {
   render() {
@@ -10,9 +12,12 @@ class App extends Component {
       <div>
         <HeaderContainer />
         <InputContainer />
-        <listContainer />
+        <ListContainer />
       </div>
     )
+  }
+  componentDidMount() {
+    Action.loadData();
   }
 }
 
