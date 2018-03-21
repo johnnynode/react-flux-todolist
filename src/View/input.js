@@ -5,7 +5,7 @@ class Input extends Component {
     return {
       placeholder:"",
       type:"text",
-      style: {width:300,height:30},
+      style: {width:300,height:30,outline:"none"},
       checked:false,
       autoFocus:false,
       onKeyUp: () => {},

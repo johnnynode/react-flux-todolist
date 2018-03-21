@@ -1,4 +1,9 @@
 class Utils {
+  // trim 函数
+  trim(str) {
+    return typeof str === 'string' ? str.replace(/^\s+|\s+$/g, "") : "";
+  }
+
   // toggle 特定一项
   toggleItemList(data, id) {
     let newData = [...data]; // copy data
