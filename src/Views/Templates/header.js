@@ -15,8 +15,8 @@ class Header extends Component {
     } = this.props;
     return (
       <div>
-        <h1>React's Basic Todo List</h1>
-        <div>Hello {name} , you have {bookLeft} books left to read!</div>
+        <h1>My book list</h1>
+        <div>Hello {name} , you have {bookLeft} {bookLeft > 1 ? "books" : "book"} left to read!</div>
       </div>
     )
   }
