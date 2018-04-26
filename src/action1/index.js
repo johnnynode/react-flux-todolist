@@ -1,5 +1,5 @@
-import Constants from '../Constants';
-import Dispatcher from '../Dispatcher';
+import Constants from '../constants';
+import Dispatcher from '../dispatcher';
 
 const Action = {
   toggleItem(id) {

@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Utils from '../../Utils';
+import Utils from '../../utils';
 import Input from './input';
 
 class ListItem extends Component {

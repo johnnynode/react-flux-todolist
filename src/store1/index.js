@@ -1,8 +1,8 @@
 import {ReduceStore} from 'flux/utils';
 
-import Constants from '../Constants';
-import Dispatcher from '../Dispatcher';
-import Utils from '../Utils';
+import Constants from '../constants';
+import Dispatcher from '../dispatcher';
+import Utils from '../utils';
 
 class Store extends ReduceStore {
   getInitialState() {
