@@ -1,7 +1,7 @@
 export default {
-  toggleItem: "toggleItem",
-  delItem: "delItem",
-  createItem: "createItem",
-  editItem: "editItem",
-  loadData: "loadData"
+  toggleItem: Symbol(),
+  delItem: Symbol(),
+  createItem: Symbol(),
+  editItem: Symbol(),
+  loadData: Symbol()
 };
