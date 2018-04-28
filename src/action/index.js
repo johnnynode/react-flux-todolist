@@ -1,30 +1,32 @@
 import Constants from '../constants';
 import Dispatcher from '../dispatcher';
 
+const Types = Constants.actionTypes;
+
 const Action = {
   toggleItem(id) {
     Dispatcher.dispatch({
       id,
-      type:Constants.toggleItem
+      type:Types.toggleItem
     })
   },
   delItem(id) {
     Dispatcher.dispatch({
       id,
-      type: Constants.delItem
+      type: Types.delItem
     })
   },
   createItem(title) {
     Dispatcher.dispatch({
       title,
-      type: Constants.createItem
+      type: Types.createItem
     });
   },
   editItem(id, title) {
     Dispatcher.dispatch({
       id,
       title,
-      type:Constants.editItem
+      type:Types.editItem
     });
   },
   loadData() {
@@ -33,7 +35,7 @@ const Action = {
     .then((data)=>{
       Dispatcher.dispatch({
         data,
-        type:Constants.loadData
+        type:Types.loadData
       });
     })
   }
